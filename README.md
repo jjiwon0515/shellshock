@@ -29,3 +29,4 @@ bash shell에서 환경변수를 통한 공격자가 원격으로 명령어를 �
 <br>
 <br>
 env x='(){ :;}; echo vulnerable' bash -c "echo test"<br>
+env명령어 : 지정된 환경변수를 보여주거나 새로 만든다.
