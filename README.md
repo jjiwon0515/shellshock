@@ -55,6 +55,6 @@ env명령어 : 지정된 환경변수를 보여주거나 새로 만든다.
 setuid 함수에 대해서 찾아보는 도중에 위의 사진을 발견하게 되었다.<br>
 setuid() : 실행 파일에 적용하면 실 사용자(프로그램을 실제 실행 중인 사용자)에서 프로그램 소유자의 ID로 유호 사용자가 변경됨<br>
 그래서 이번 문제에서 shellshock 파일을 실행할 때 shellshock_pwn으로 권한 상승을 할 수 있었던 것이다.<br>
-궁금증이 풀렸당
+그리고 system 함수로 string값을 실행시킨다. 이동하는 과정에서 bash 파일을 실행하기 때문에 해결할 수 있었다.
 
 https://whatdocumentary.tistory.com/50
