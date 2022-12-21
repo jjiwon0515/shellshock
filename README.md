@@ -36,4 +36,8 @@ env명령어 : 지정된 환경변수를 보여주거나 새로 만든다.
 이런 원리로 shellshock 취약점이 된다고 한다. 
 그래서 관련된 쉘 스크립트를 직접 만들어보면서 이해하기로 했다.
 
+
+또한 ls -al에서의 권한과 user, group에 대해서도 새롭게 알게 되었다.
+
+
 https://whatdocumentary.tistory.com/50
