@@ -32,4 +32,8 @@ env x='(){ :;}; echo vulnerable' bash -c "echo test"<br>
 env명령어 : 지정된 환경변수를 보여주거나 새로 만든다.
 
 
+<img width="470" alt="shellshock" src="https://user-images.githubusercontent.com/107084512/208839683-66998a5d-a261-43f9-a004-297243cff03c.png">
+이런 원리로 shellshock 취약점이 된다고 한다. 
+그래서 관련된 쉘 스크립트를 직접 만들어보면서 이해하기로 했다.
+
 https://whatdocumentary.tistory.com/50
